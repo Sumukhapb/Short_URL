@@ -336,7 +336,7 @@ If you want to use this as a service in your application:
 **Example - Using in a Next.js App:**
 
 ```javascript
-const baseURL = 'https://your-deployed-api.com';
+const baseURL = 'https://short-url-api-4l7o.onrender.com';
 
 async function shortenURL(longURL, userToken) {
   const response = await fetch(`${baseURL}/url`, {
