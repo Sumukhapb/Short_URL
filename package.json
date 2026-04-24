@@ -1,0 +1,30 @@
+{
+  "name": "short-url-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Free URL Shortener API - Shorten long URLs and track analytics",
+  "keywords": ["url-shortener", "api", "free", "nodejs"],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.7",
+    "shortid": "^2.2.16"
+  }
+}
