@@ -12,7 +12,7 @@
   "description": "Free URL Shortener API - Shorten long URLs and track analytics",
   "keywords": ["url-shortener", "api", "free", "nodejs"],
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
